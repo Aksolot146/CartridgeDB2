@@ -1,0 +1,24 @@
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\bin\Debug\net5.0\CartridgesSwagger.Client.deps.json
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\bin\Debug\net5.0\CartridgesSwagger.Client.dll
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\bin\Debug\net5.0\ref\CartridgesSwagger.Client.dll
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\bin\Debug\net5.0\CartridgesSwagger.Client.pdb
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.AssemblyInfo.cs
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.dll
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\ref\CartridgesSwagger.Client.dll
+C:\Users\user\source\repos\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.pdb
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\bin\Debug\net5.0\CartridgesSwagger.Client.deps.json
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\bin\Debug\net5.0\CartridgesSwagger.Client.dll
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\bin\Debug\net5.0\ref\CartridgesSwagger.Client.dll
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\bin\Debug\net5.0\CartridgesSwagger.Client.pdb
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.csproj.AssemblyReference.cache
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.AssemblyInfoInputs.cache
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.AssemblyInfo.cs
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.csproj.CoreCompileInputs.cache
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.dll
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\ref\CartridgesSwagger.Client.dll
+E:\Aksolot\Aksolot Basic\Общий контент\Шаражкино захламление\Картриджи\BackendCartridges\CartridgesSwagger.Client\obj\Debug\net5.0\CartridgesSwagger.Client.pdb

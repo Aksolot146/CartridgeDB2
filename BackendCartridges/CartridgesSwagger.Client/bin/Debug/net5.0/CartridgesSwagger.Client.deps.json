@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CartridgesSwagger.Client/1.0.0": {
+        "runtime": {
+          "CartridgesSwagger.Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CartridgesSwagger.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
