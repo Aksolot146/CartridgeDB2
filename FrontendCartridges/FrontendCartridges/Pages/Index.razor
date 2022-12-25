@@ -1,0 +1,24 @@
+﻿@page "/"
+@inject HttpClient Http
+@inject NavigationManager navigationManager
+
+<h1>Welcome to Cartridge DataBase</h1>
+
+This DataBase can help you manage a cartridges and check statuses for this ones.
+Made by Marchus K.R. (19-V-1).
+<br />
+<Button Type="button" Name="Log In" Width="100" OnClick="LogIn" HasActive="true"></Button>
+<Button Type="button" Name="Sign Up" Width="100" OnClick="SignUp" HasActive="true"></Button>
+
+
+@code
+{
+    private void LogIn()
+    {
+        navigationManager.NavigateTo("https://localhost:44312/login");
+    }
+    private void SignUp()
+    {
+        navigationManager.NavigateTo("https://localhost:44312/signup");
+    }
+}

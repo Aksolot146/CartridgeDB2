@@ -1,0 +1,56 @@
+﻿@page "/signup"
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@using FrontendCartridges.Models
+@using Microsoft.Extensions.Logging;
+@inject HttpClient Http
+@inject NavigationManager navigationManager
+@inject ILogger<Registry> Logger
+
+<h3>Sign Up</h3>
+
+<EditForm EditContext="@editContext" OnValidSubmit="@AddUser">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText id="Login" @bind-Value="addUser.Login" placeholder="Login" />
+    <br />
+    <InputText id="Mail" @bind-Value="addUser.Mail" placeholder="Email" />
+    <br />
+    <InputText id="Password" @bind-Value="addUser.Password" placeholder="Password" />
+    <br />
+
+    <Button Type="submit" Name="Sign Up" Width="100" />
+    <Button Type="button" Name="Cancel" Width="100" OnClick="Back" HasActive="true"></Button>
+</EditForm>
+
+@code {
+    private EditContext editContext;
+    private User addUser = new User();
+
+    //контекст
+    protected override void OnInitialized()
+    {
+        editContext = new(addUser);
+    }
+
+    private async Task AddUser()
+    {
+        await Http.PostAsJsonAsync("https://localhost:44375/api/users", addUser);
+    }
+
+    private void Back()
+    {
+        navigationManager.NavigateTo("https://localhost:44312/");
+    }
+
+    private async Task CheckAction()
+    {
+        if (editContext != null && editContext.Validate())
+        {
+            await AddUser();
+            Back();
+        }
+    }
+}

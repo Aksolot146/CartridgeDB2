@@ -1,0 +1,57 @@
+﻿@page "/login"
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@using FrontendCartridges.Models
+@inject HttpClient Http
+@inject NavigationManager navigationManager
+
+<h3>Log In</h3>
+
+<EditForm EditContext="@checkContext" OnValidSubmit="@CheckAction">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText id="Login" @bind-Value="checkUser.Login" placeholder="Login" />
+    <br />
+    <InputText id="Password" @bind-Value="checkUser.Password" placeholder="Password" />
+    <br />
+
+    <Button Type="submit" Name="Log In" Width="100" />
+    <Button Type="button" Name="Cancel" Width="100" OnClick="Back" HasActive="true"></Button>
+</EditForm>
+
+@code {
+    //вместо EditContext должен быть некоторый другой класс из
+    //https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.forms.inputtext?view=aspnetcore-6.0
+    private EditContext checkContext;
+
+    //добавляем переменную ноды БД 2-го модуля User
+    private User checkUser = new User();
+
+    //контекст
+    protected override async Task OnInitializedAsync()
+    {
+        checkContext = new(checkUser);
+    }
+
+    //проверяем состав ноды Users
+    private async Task CheckUser()
+    {
+        await Http.PostAsJsonAsync("https://localhost:44375/api/users", checkUser);
+    }
+
+    private void Back()
+    {
+        navigationManager.NavigateTo("https://localhost:44312/");
+    }
+
+    private async Task CheckAction()
+    {
+        if (checkContext != null && checkContext.Validate())
+        {
+            await CheckUser();
+            Back();
+        }
+    }
+}
